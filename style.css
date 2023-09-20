@@ -24,8 +24,10 @@ parent {
   margin: 1rem;
   padding: 2rem 2rem;
   text-align: center;
+  background-color: rgb(173, 230, 195);
 }
 .child2 {
+  background-image: linear-gradient(rgb(91, 104, 172), white, rgb(0, 255, 136), rgb(92, 135, 122), green, rgb(80, 49, 99));
   margin-top: 100px auto;
   position: relative;
   width: 1200px;
@@ -35,10 +37,12 @@ parent {
   border: 1px solid rgb(68, 0, 255);
   padding: 1rem 1rem;
   vertical-align: middle;
+  overflow: hidden;
   
 }
 
 .My{
+  background-image: linear-gradient(chartreuse, white, rgb(114, 83, 96), rgb(0, 187, 255), green, brown);
   margin-top: 100px auto;
   position: relative;
   width: 1200px;
@@ -74,7 +78,7 @@ parent {
   outline: 2px solid #000;
   position: absolute;
   top: 19%;
-  left: 75%;
+  left: 79%;
   transform: translate(-50%, -50%);
   color: whitesmoke;
 }
@@ -88,7 +92,7 @@ parent {
   outline: 2px solid #000;
   position: absolute;
   top: 75%;
-  left: 75%;
+  left: 79%;
   transform: translate(-50%, -50%);
 }
 
@@ -101,7 +105,7 @@ parent {
   outline: 2px solid #000;
   position: absolute;
   top: 75%;
-  right: 50%;
+  right: 49%;
   transform: translate(-50%, -50%);
 }
 
@@ -126,7 +130,5 @@ justify-content:
 Font-weight: 100;
 }
 
-.yeetus{
-  background-image: linear-gradient(chartreuse, white, blue, rgb(0, 187, 255), green, brown);
-}
+
 
